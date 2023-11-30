@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+@font-face {
+    font-family:Glacial;
+    src: url(/fonts/GlacialIndifference-Regular.otf);
+ }
+
+body{
+    background-image: url(/images/Background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Glacial;
+
+}
+
+form{
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.815);
+    border: 10px solid rgb(108, 92, 77,0.63);
+    color: rgb(108, 92, 77);
+    font-family: Glacial;
+    padding: 10px;
+}
+h1{
+    margin: 10px;
+    font-size: 24px;
+}
+input{
+    background-color: rgb(108, 92, 77);
+    border: rgb(108, 92, 77) 1px solid;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Glacial;
+}
+
+.button{
+    display: block;
+    color: white;
+    width:30%;
+    margin: 10px auto;
+    font-family:Glacial;
+}
+input:active{
+    border: 1px solid white;
+}

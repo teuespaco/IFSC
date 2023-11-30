@@ -1,0 +1,8 @@
+<h1>Funcionarios Cadastrados</h1>
+<div class="funcionarios-container">
+    {{#each funcionarios}}
+        <div>#{{this.id}} - <span class="bold">
+            <a href="/funcionarios/{{this.id}}">{{this.nome}}</a>
+            </span> - {{this.idade}} anos</div>
+    {{/each}}
+</div>

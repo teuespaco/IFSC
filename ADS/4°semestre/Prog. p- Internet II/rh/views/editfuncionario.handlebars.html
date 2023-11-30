@@ -1,0 +1,37 @@
+<h1>Edite os dados do Funcionario</h1>
+<form class="form" action="/funcionarios/updatefuncionario" method="POST">
+
+<input type="hidden" name="id" value="{{funcionario.id}}">
+
+<div class="form-control">
+    <label for="nome">Nome do funcionario:</label>
+    <input type="text" name="nome" placeholder="Nome do funcionario" value="{{funcionario.nome}}">
+</div>
+
+<div class="form-control">
+    <label for="sobrenome">Sobrenome do funcionario:</label>
+    <input type="text" name="sobrenome" placeholder="Sobrenome do funcionario" value="{{funcionario.sobrenome}}">
+</div>
+
+<div class="form-control">
+    <label for="cidade">Cidade do funcionario:</label>
+    <input type="text" name="cidade" placeholder="Cidade do funcionario" value="{{funcionario.cidade}}">
+</div>
+
+<div class="form-control">
+    <label for="escolariade">Escolariade do funcionario:</label>
+    <input type="text" name="escolariade" placeholder="Escolariade do funcionario" value="{{funcionario.escolariade}}">
+</div>
+
+<div class="form-control">
+    <label for="setor">Setor do funcionario:</label>
+    <input type="text" name="setor" placeholder="Setor do funcionario" value="{{funcionario.setor}}">
+</div>
+
+<div class="form-control">
+    <label for="anonasc">Ano de nascimento do funcionario:</label>
+    <input type="number" name="anonasc" placeholder="Ano de nascimento do funcionario" value="{{funcionario.anonasc}}">
+</div>
+
+<input type="submit" value="Editar">
+</form>

@@ -1,0 +1,78 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>☕ Café ☕</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="POST" action="/recebedados">
+
+        <h1>Nome:</h1>
+        <input type="text" name="name" id="name" value="Davi">
+        <h1>Email:</h1>
+        <input type="email" name="email" id="email" value="falconboss34@gmail.com">
+        <h1>Telefone:</h1>
+        <input type="tel" name="tel" id="tel" value="">
+        <div class="msg"></div>
+        <input class="button" type="submit" value="Submit">
+
+    </form>
+    <script>
+        // document.addEventListener("DOMContentLoaded", () => {
+        //     const form = document.querySelector("form");
+        //     form.addEventListener("submit", (event) => {
+        //         event.preventDefault();
+        //         let name = document.getElementById("name").value;
+        //         let email = document.getElementById("email").value;
+        //         let tel = document.getElementById("tel").value;
+
+        //         const bodyData = {
+        //             name,
+        //             email,
+        //             tel
+        //         };
+
+        //         fetch('http://localhost:5000/recebedados', {
+        //             method: 'POST',
+        //             body: JSON.stringify(bodyData)
+        //         })
+        //         .then(response => response.json())
+        //         .then(data => console.log(data));
+        //     })
+        // });
+        // let form = document.querySelector("form");
+
+        //     form.addEventListener("submit",(event)=>{
+        //     event.preventDefault()
+
+
+        //     /*fetch("localhost:5000/")
+        //     .then( (response) => response.json())
+        //     .then((data)=> console.log(data, 'dados do node'))// output will be the required data
+        //     .catch( (error) => console.log(error))*/
+        // });
+
+
+        // function send_info(){
+        //     let name = document.getElementById('name').value;
+        //     let email = document.getElementById('email').value;
+        //     let tel = document.getElementById('tel').value;
+        //     console.log(name,email,tel);
+
+        //     fetch('http://localhost:5000').then(
+        //         res=>{
+        //             console.log(res.body);
+        //         }
+        //     );
+        //     /*fetch("localhost:5000/")
+        //     .then( (response) => response.json())
+        //     .then((data)=> console.log(data, 'dados do node'))// output will be the required data
+        //     .catch( (error) => console.log(error))*/
+        // }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <title>Monte sua biografia</title>
+
+    <style>
+        .jumbotron {
+            background: #ff0000;
+        }
+        
+        body {
+            background: #000000;
+        }
+        
+        h1 {
+            font: bolder 25pt marker felt fantasy;
+            text-align: center;
+            color: black;
+            opacity: 0.9;
+        }
+        
+        label {
+            color: whitesmoke;
+            font: normal 14pt marker felt fantasy;
+        }
+        
+        button {
+            cursor: pointer;
+            font-weight: 700;
+            font-family: Helvetica, "sans-serif";
+            transition: all 0.2s;
+            padding: 10px 20px;
+            border-radius: 100px;
+            background: #ff0000;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            opacity: 0, 9;
+        }
+        
+        button:hover {
+            background: #ff0000;
+        }
+        
+        button>svg {
+            width: 34px;
+            margin-left: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        button:hover svg {
+            transform: translateX(5px);
+        }
+        
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Resultado:</h1>
+        </div>
+
+        <div>
+            <label>Meu nome é {{nome}} {{sobrenome}}, atualmente moro em {{cidade}}</label>
+            <br>
+            <label>Nasci  em {{anoNasc}} no dia {{diaNasc}} de {{mesNasc}} e possuo <b> {{idade}} anos.</b></label>
+        </div>
+    </div>
+
+</body>
+
+</html>
