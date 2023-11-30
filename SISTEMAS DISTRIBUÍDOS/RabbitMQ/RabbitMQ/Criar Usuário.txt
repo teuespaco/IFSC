@@ -1,0 +1,3 @@
+rabbitmqctl add_user ads ads
+rabbitmqctl set_user_tags ads administrator
+rabbitmqctl set_permissions -p / ads ".*" ".*" ".*"
