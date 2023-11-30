@@ -1,0 +1,10 @@
+---prompt de comando---
+
+dir - mostrar arquivos
+cls - limpar prompt
+gcc nomearquivo.c -o nomearquivo  - compilar arquivo
+.\nomearquivo
+
+-----linguagem c ------
+
+
