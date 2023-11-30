@@ -1,0 +1,19 @@
+Olá professor, irei apresentar meu DER  Diagrama Entidade-Relacionamento da Ativiadde avaliativa 1 Turismo espacial, 
+
+neste diagrama temos as entidades representadas em formato retangular, o losnagulo que represeenta os relacionamentos, o triangulo  losangulo que é uma entiade que se auto relaciona e as linhas que estão ligando atributos a entidades e entidades a relacionamentos.
+
+Temos a entidade piloto ligada aos atributos nome, sobrenome, endereço, telefone 1, telefone 2, como  atributo chave temos o cpf e o  rg.
+
+A entidade nave está ligada ao atributo chave numero de registro, e aos atributos  numero de passageiro, data de fabricação e modelo que possui os sub atributos de forma exclusiva um nome e uma descrição
+
+os voos possui as propriedades tempo de duração, horario, nome do piloto destino, data, planeta de origem 
+
+O triangulo  losangulo esta interconectando as entidades, o piloto esta ligado as naves por meio de um relacionamento que são o pode pilotar e tambem pelos voos.
+
+As cardionalides desse diagrama são
+1 piloto pra 1 vooe 
+1 naves para varios voo 
+1 piloto pode pilotar varias naves
+e pode pilotar minimo 0 e maximo varios
+
+
