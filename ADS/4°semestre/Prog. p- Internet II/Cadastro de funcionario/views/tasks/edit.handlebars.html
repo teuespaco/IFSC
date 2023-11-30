@@ -1,0 +1,27 @@
+<h1>Editando funcionario</h1>
+<form action="/tasks/edit" method="post">
+<input type="hidden" name="id" value="{{task.id}}">
+
+<div class="form-control">
+    <label for="nome">Nome do funcionario:</label>
+    <input type="text" name="nome" value="{{task.nome}}">
+</div>
+<div class="form-control">
+    <label for="cidade">Cidade do funcionario:</label>
+    <input type="text" name="cidade" value="{{task.cidade}}">
+</div>
+<div class="form-control">
+    <label for="escolaridade">Escolaridade do funcionario:</label>
+    <input type="text" name="escolaridade" value="{{task.escolaridade}}">
+</div>
+<div class="form-control">
+    <label for="setor">Setor do funcionario:</label>
+    <input type="text" name="setor" value="{{task.setor}}">
+</div>
+<div class="form-control">
+    <label for="idade">Idade do funcionario:</label>
+    <input type="text" name="idade" value="{{task.idade}}">
+</div>
+
+<input type="submit" value="Salvar">
+</form>
