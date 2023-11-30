@@ -1,0 +1,22 @@
+1 - A editora A lançou um novo livro chamado O sol é para todos, assunto 11, autor 11. 
+	A livraria resolveu comprar 15 exemplares para vender
+2 - A editora E lançou um novo livro chamado O poder do habito, assunto 12, autor 12. 
+	A livraria resolveu comprar 22 exemplares para vender
+3 - A editora B lançou um novo livro chamado Vidas Secas, assunto 13, autor 13. 
+	A livraria resolveu comprar 8 exemplares para vender
+4 - A editora D lançou um novo livro chamado O nome do vento, assunto 14, autor 14. 
+	A livraria resolveu comprar 12 exemplares para vender	
+5 - A editora C lançou um novo livro chamado A ultima flecha, assunto 15, autor 15. 
+	A livraria resolveu comprar 19 exemplares para vender
+6 - Voce comprou o Livro o Sol é para todos, faça o registro de compra no sistema da livraria
+7 - O professor Aldir comprou o Livro O poder do habito, faça o registro de compra no 
+	sistema da livraria
+8 - O professor Luciano comprou o Livro Vidas Secas, faça o registro de compra no sistema 
+	da livraria
+9 - O professor Lucas comprou o Livro O nome do vento, faça o registro de compra no 
+	sistema da livraria
+10 - O professor Aldir se arrependeu de ter comprado o seu ultimo livro e solicitou a 
+	troca, a venda do livro O poder do habito deve ser cancelada, e a nova venda do 
+	livro A ultima flecha deve ser registrado no sistema da livraria
+11 - Faça um consulta dos livros que possuem estoque inferior a 5 exemplares para soliciar 
+	uma nova compra
